@@ -1,0 +1,29 @@
+{
+  "name": "hotelpro-mern",
+  "version": "1.0.0",
+  "description": "HotelPro - Full-Stack Hotel Booking and Management System (MERN)",
+  "main": "server/server.js",
+  "scripts": {
+    "install:server": "npm install --prefix server",
+    "install:client": "npm install --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "server": "npm run start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "npm run test --prefix server"
+  },
+  "keywords": [
+    "hotel-booking",
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "vite",
+    "bootstrap"
+  ],
+  "author": "HotelPro Team",
+  "license": "MIT"
+}
